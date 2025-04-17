@@ -1,63 +1,63 @@
-# 🔒 Advanced Multi-Feature Streamlit App
+# 📚 Personal Library Manager
 
-This is a powerful multi-functional Streamlit web application that combines the following features:
-
-- 🔐 **Password Strength Checker**  
-- 🔑 **Secure Password Generator**  
-- 💭 **Passphrase Generator**  
-- 😊 **Mood Tracker with Data Visualization**
+A stylish and user-friendly **Streamlit** app to manage your personal book collection, powered by **MongoDB**.
 
 ---
 
-## 🚀 Features
+## 🌟 Features
 
-### 1. Password Strength Checker
-- Analyzes passwords for length, complexity, and common vulnerabilities
-- Gives visual strength feedback and improvement suggestions
-- Calculates entropy and shows time-to-crack estimate
-- Displays password hash using SHA-256
-
-### 2. Password Generator
-- Customizable length and character types (uppercase, lowercase, digits, special characters)
-- Ensures strong and random password generation
-- Also provides feedback and strength evaluation
-
-### 3. Passphrase Generator
-- Creates secure passphrases using words from a local `wordlist.txt` file
-
-### 4. Mood Tracker
-- Lets users log their daily mood and notes
-- Stores mood history during the session
-- Visualizes mood trends using interactive charts (Plotly)
+- **Add New Books**: Input title, author, year, genre, and whether you’ve read it.
+- **Search Books**: Find books by title or author.
+- **View All Books**: Browse your entire collection with a clean card layout.
+- **Remove Books**: Easily delete books from your library.
+- **Library Statistics**: Visualize the number of read and unread books with metrics and charts.
+- **Modern UI**: Tailwind CSS-inspired custom styling.
 
 ---
 
-## 🛠️ Setup Instructions
+## 🛠️ Tech Stack
+
+- **Python**
+- **Streamlit**
+- **MongoDB (Atlas)**
+- **PyMongo**
+- **Pandas**
+- **Custom HTML/CSS for styling**
+
+---
+
+## 🚀 Getting Started
 
 ### 1. Clone the Repository
-```bash
-https://github.com/maarijkhan24/Password-Strength-Meter.git
-cd app.py
 
+```bash
+https://github.com/armeennadeem197/personal-library.git
 ```
 2. Install Dependencies
-Make sure you have Python installed, then run:
-```
-pip install -r requirements.txt
+  ```
+3. pip install streamlit pymongo pandas
 
 ```
-4. Run the App
+3. Run the App
+streamlit run library
 ```
-   streamlit run app.py
+🔐 MongoDB Setup
 ```
-🧰 Requirements
-Python 3.7+
+This project uses MongoDB Atlas. Update the connection string in your code:
+client = MongoClient("your_mongodb_connection_string")
+Ensure your cluster is accessible and your IP is whitelisted.
 
-Streamlit
+```
+📁 Folder Structure
+c-manager/
+│
+├── library app.py             # Main application file
+├── README.md          # Project description
+├── requirements.txt   # (Optional) Python dependencies
 
-pandas
+```
+🙌 Author
+Armeen Nadeem
 
-plotly
+GitHub: @armeennadeem197
 
-Install manually if needed:
-pip install streamlit pandas plotly
