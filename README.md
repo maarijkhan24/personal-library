@@ -31,7 +31,7 @@ A stylish and user-friendly **Streamlit** app to manage your personal book colle
 ### 1. Clone the Repository
 
 ```bash
-https://github.com/armeennadeem197/personal-library.git
+https://github.com/maarijkhan24/personal-library.git
 ```
 2. Install Dependencies
   ```
@@ -57,7 +57,7 @@ c-manager/
 
 ```
 🙌 Author
-Armeen Nadeem
+MAARIJ KHAN
 
-GitHub: @armeennadeem197
+GitHub: @maarijkhan246
 
